@@ -1,0 +1,122 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin-left: 32%;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    font-size: 22px;
+    color: #f7ca61;
+  }
+  
+  li > a {
+    color: #f7ca61;
+  }
+  li > a:hover {
+    color: chocolate;
+  }
+  label {
+    display: block;
+    font-size: smaller;
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+  input {
+    border: 1px solid #cb9008;
+    background-color: #231806;
+    border-color: #cb9008;
+    width: 400px;
+    height: 33px;
+    color: #cb9008;
+    border-radius: 4px;
+    display: block;
+  }
+  textarea {
+    border: 1px solid #cb9008;
+    background-color: #231806;
+    border-color: #cb9008;
+    width: 400px;
+    height: 33px;
+    color: #cb9008;
+    border-radius: 4px;
+    display: block;
+  }
+  input:focus {
+    outline: none;
+  }
+  textarea:focus {
+    outline: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  a {
+    text-align: center;
+    color: black;
+    padding-top: 45px;
+    padding-left: 15px;
+  }
+  .fa.fa-instagram:hover {
+    color: rgb(204, 24, 84);
+  }
+  #head {
+    color: #cb9008 !important;
+    margin-top: 0px;
+    font-family: "Indie Flower";
+    font-weight: 1000;
+    font-size: 45px;
+    letter-spacing: 0.5ch;
+  }
+  #media {
+    font-size: 24px;
+  }
+  
+  @media only screen and (max-width: 1366px) {
+    body {
+      zoom: 55%;
+      height: 270% !important;
+    }
+    #head {
+      font-size: 55px !important;
+    }
+    #nav {
+      margin-left: -16px !important;
+    }
+    nav {
+      height: 70px !important;
+    }
+    li {
+      font-size: 28px !important;
+    }
+    #media {
+      font-size: 200% !important;
+    }
+    form > label {
+      font-size: 200% !important;
+    }
+    form > input,
+    form > textarea {
+      width: 600px !important;
+      height: 49.5px !important;
+    }
+    #ulaşın {
+      margin-bottom: 60px !important;
+      margin-top: 210px !important;
+      font-size: 200% !important;
+    }
+  }
+  

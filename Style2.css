@@ -1,0 +1,125 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin-left: 32%;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    font-size: 22px;
+    color: #f7ca61;
+  }
+  li > a {
+    color: #f7ca61;
+  }
+  li > a:hover {
+    color: chocolate;
+  }
+  
+  label {
+    display: block;
+    font-size: smaller;
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  a {
+    text-align: center;
+    color: black;
+    padding-top: 45px;
+    padding-left: 15px;
+  }
+  
+  .fa.fa-instagram:hover {
+    color: rgb(204, 24, 84);
+  }
+  
+  section {
+    margin-left: 19px;
+    margin-right: 19px;
+  }
+  
+  section > div {
+    margin-top: 25px;
+    line-height: 35px;
+  }
+  h1 {
+    color: chocolate;
+    padding-bottom: 7px;
+  }
+  p1 {
+    color: #f7ca61;
+    font-size: 22px;
+  }
+  #head {
+    color: #cb9008 !important;
+    margin-top: 0px;
+    font-family: "Indie Flower";
+    font-weight: 1000;
+    font-size: 45px;
+    letter-spacing: 0.5ch;
+  }
+  #media > a {
+    font-size: 24px;
+  }
+  
+  @media only screen and (max-width: 1366px) {
+    body {
+      zoom: 55%;
+    }
+    #head {
+      font-size: 55px !important;
+    }
+    #nav {
+      margin-left: -16px !important;
+    }
+    section > div {
+      line-height: 45px !important;
+    }
+    #bir {
+      height: 60% !important;
+      font-size: 30px !important;
+    }
+    #iki {
+      height: 35% !important;
+    }
+    #gelecek {
+      font-size: 30px !important;
+    }
+    #üç {
+      height: 45% !important;
+      font-size: 30px !important;
+    }
+    nav {
+      height: 70px !important;
+    }
+    li {
+      font-size: 28px !important;
+    }
+    section > div > p1 {
+      font-size: 28px !important;
+    }
+    section > div > h1 {
+      font-size: 3rem !important;
+    }
+    #media > a {
+      font-size: 200% !important;
+      padding-right: 10px !important;
+    }
+  }
+  
